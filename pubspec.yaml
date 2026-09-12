@@ -1,0 +1,18 @@
+name: my_collins
+description: 我的柯林斯——递归抄词典
+publish_to: "none"
+version: 0.2.0+2
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/dictionary.json.gz
