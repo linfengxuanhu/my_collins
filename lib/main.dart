@@ -687,7 +687,7 @@ class _DictPageState extends State<DictPage> {
                   label: Text(kStatusLabels[i]),
                   selected: mine.status == i,
                   onSelected: (_) {
-                    widget.setStatus(mine!, i);
+                    widget.setStatus(mine, i);
                     setState(() {});
                   },
                 ),
